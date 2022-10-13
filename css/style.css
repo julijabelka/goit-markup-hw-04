@@ -380,7 +380,7 @@ ul {
   height: 44px;
   border-radius: 50%;
   background-size: contain;
-  background-color: red;
+  background-color: var(--button-backgroud-color);
 }
 .subscribe-soc-link {
   width: 44px;
@@ -395,6 +395,18 @@ ul {
   width: 20px;
   height: 20px;
   fill: #ffffff;
+}
+/*-----------Clients--------*/
+.clients-had {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+.clients-section {
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 /*----------Portfolio------*/
 
