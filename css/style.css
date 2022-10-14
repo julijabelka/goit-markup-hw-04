@@ -389,18 +389,24 @@ ul {
   display: flex;
   align-items: center;
   justify-content: center;
+  fill: #afb1b8;
 }
+.subscribe-soc-link:hover,
+.subscribe-soc-link:focus {
+  background-color: var(--button-backgroud-color);
+  fill: var(--background-color);
+}
+
 .subscribe-soc-icon {
   content: "";
   width: 20px;
   height: 20px;
-  fill: #ffffff;
 }
 /*-----------Clients--------*/
 .clients-had {
   font-weight: 700;
   font-size: 36px;
-  line-height: 42px;
+  line-height: 1.16;
   text-align: center;
   letter-spacing: 0.03em;
 }
