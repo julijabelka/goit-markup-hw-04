@@ -380,7 +380,7 @@ ul {
   height: 44px;
   border-radius: 50%;
   background-size: contain;
-  background-color: var(--button-backgroud-color);
+  background-color: var(--background-color);
 }
 .subscribe-soc-link {
   width: 44px;
