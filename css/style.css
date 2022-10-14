@@ -391,8 +391,8 @@ ul {
   justify-content: center;
   fill: #afb1b8;
 }
-.subscribe-soc-link:hover,
-.subscribe-soc-link:focus {
+.subscribe-soc-item:hover,
+.subscribe-soc-item:focus {
   background-color: var(--button-backgroud-color);
   fill: var(--background-color);
 }
