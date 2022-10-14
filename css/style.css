@@ -391,8 +391,8 @@ ul {
   fill: #afb1b8;
   background-color: var(--background-color);
 }
-.subscribe-soc-link:hover,
-.subscribe-soc-link:focus {
+.subscribe-soc-icon:hover,
+.subscribe-soc-icon:focus {
   background-color: var(--button-backgroud-color);
   fill: var(--background-color);
 }
