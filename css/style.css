@@ -163,14 +163,14 @@ ul {
   color: var(--accent-color);
   fill: var(--accent-color);
 }
-.header-tel::before {
+/*.header-tel::before {
   display: inline-block;
   content: " ";
   width: 10px;
   height: 16px;
   margin-right: 10px;
   background-color: red;
-}
+}*/
 .header-tel {
   display: block;
   padding-top: 32px;
@@ -180,10 +180,12 @@ ul {
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--text-color);
+  fill: var(--text-color);
 }
 .header-tel:hover,
 .header-tel:focus {
   color: var(--accent-color);
+  fill: var(--accent-color);
 }
 /*------Main section----*/
 .overlay {
