@@ -445,8 +445,8 @@ ul {
   height: 60px;
   fill: #afb1b8;
 }
-.clients-icon:hover,
-.clients-icon:focus {
+.clients-item:hover,
+.clients-item:focus {
   fill: var(--accent-color);
 }
 
