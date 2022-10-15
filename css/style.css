@@ -415,8 +415,18 @@ ul {
   padding-bottom: 94px;
 }
 .clients-item {
-  display: block;
+  flex-basis: calc((100% - 5 * 30px) / 6);
+  display: inline-block;
   border-color: 1px solid #afb1b8;
+  padding-left: 32px;
+  padding-right: 32px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+.clients-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 /*----------Portfolio------*/
