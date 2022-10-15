@@ -646,6 +646,7 @@ ul {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--background-color);
+  margin-bottom: 20px;
 }
 .joing-list {
   display: flex;
@@ -661,7 +662,7 @@ ul {
   align-items: center;
   justify-content: center;
   fill: var(--background-color);
-  background-color: #757575;
+  background-color: var(--text-color);
 }
 .joing-link:hover,
 .joing-link:focus {
