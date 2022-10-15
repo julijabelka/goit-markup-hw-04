@@ -560,13 +560,16 @@ ul {
   color: var(--text-color);
 }
 /*--------FOOTER--------*/
+
 .footer {
+  display: flex;
   padding-top: 60px;
   padding-bottom: 60px;
   background: var(--background-color-footer-main);
 }
 .footer-container {
 }
+
 .logo-footer-link {
   display: block;
   margin-bottom: 20px;
@@ -630,4 +633,39 @@ ul {
 .tel-footer:hover,
 .tel-footer:focus {
   color: var(--accent-color);
+}
+/*-----Joing----*/
+.joing-conteiner {
+  display: block;
+  justify-content: center;
+}
+.joing-head {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--background-color);
+}
+.joing-list {
+  display: flex;
+}
+.joing-item {
+  display: inline-block;
+}
+.joing-link {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  fill: var(--background-color);
+  background-color: #757575;
+}
+.joing-link:hover,
+.joing-link:focus {
+  background-color: var(--accent-color);
+}
+.joing-icon {
 }
