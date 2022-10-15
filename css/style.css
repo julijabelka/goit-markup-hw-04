@@ -161,6 +161,7 @@ ul {
 .header-mail:hover,
 .header-mail:focus {
   color: var(--accent-color);
+  fill: var(--accent-color);
 }
 .header-tel::before {
   display: inline-block;
