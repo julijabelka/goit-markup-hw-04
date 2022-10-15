@@ -137,14 +137,14 @@ ul {
 }
 .contacts-item {
 }
-.header-mail::before {
+/*.header-mail::before {
   display: inline-block;
   content: " ";
   width: 16px;
   height: 12px;
   margin-right: 10px;
   background-color: red;
-}
+}*/
 .header-mail {
   display: block;
   padding-top: 32px;
@@ -154,6 +154,9 @@ ul {
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--text-color);
+}
+.header-mail {
+  fill: var(--text-color);
 }
 .header-mail:hover,
 .header-mail:focus {
