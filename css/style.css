@@ -414,6 +414,10 @@ ul {
   padding-top: 94px;
   padding-bottom: 94px;
 }
+.clients-item {
+  border-color: 1px solid #afb1b8;
+}
+
 /*----------Portfolio------*/
 
 .button-list {
