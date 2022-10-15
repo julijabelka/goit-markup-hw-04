@@ -415,6 +415,7 @@ ul {
   padding-bottom: 94px;
 }
 .clients-item {
+  display: block;
   border-color: 1px solid #afb1b8;
 }
 
