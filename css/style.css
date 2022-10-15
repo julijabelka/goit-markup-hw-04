@@ -567,6 +567,9 @@ ul {
   padding-bottom: 60px;
   background: var(--background-color-footer-main);
 }
+.main-footer-container {
+  display: flex;
+}
 .footer-container {
 }
 
@@ -638,6 +641,7 @@ ul {
 .joing-conteiner {
   display: block;
   justify-content: center;
+  padding-left: 70px;
 }
 .joing-head {
   font-weight: 700;
