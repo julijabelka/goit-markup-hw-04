@@ -430,6 +430,10 @@ ul {
   padding-top: 16px;
   padding-bottom: 16px;
 }
+.clients-item:hover,
+.clients-item:focus {
+  border: 1px solid var(--accent-color);
+}
 .clients-link {
   display: flex;
   align-items: center;
@@ -441,8 +445,9 @@ ul {
   height: 60px;
   fill: #afb1b8;
 }
-.clients-link:hover .clients-link:focus {
-  fill: var(--button-backgroud-color);
+.clients-link:hover,
+.clients-link:focus {
+  fill: var(--accent-color);
 }
 
 /*----------Portfolio------*/
