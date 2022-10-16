@@ -290,6 +290,7 @@ ul {
 }
 .icon-antenna::before {
   background-image: url("../images1/antenag.svg");
+  padding: 25px 100px;
 }
 .icon-clock::before {
   background-image: url("../images1/clock1.svg");
