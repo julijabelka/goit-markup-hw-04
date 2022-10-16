@@ -289,7 +289,7 @@ ul {
   background-position: center;
 }
 .icon-antenna::before {
-  background-image: url("../images1/antenna1.svg");
+  background-image: url("../images1/antenag.svg");
 }
 .icon-clock::before {
   background-image: url("../images1/clock1.svg");
