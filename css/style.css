@@ -287,13 +287,11 @@ ul {
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
-  padding-top: 25px;
-  padding-bottom: 25px;
-  padding-left: 100px;
-  padding-right: 100px;
 }
 .icon-antenna::before {
   background-image: url("../images1/antenag.svg");
+  width: 70px;
+  height: 70px;
 }
 .icon-clock::before {
   background-image: url("../images1/clock1.svg");
