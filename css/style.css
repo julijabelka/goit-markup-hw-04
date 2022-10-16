@@ -192,7 +192,7 @@ ul {
 /*------Main section----*/
 .overlay {
   max-width: 1600px;
-  height: 600px;
+
   margin-left: auto;
   margin-right: auto;
   background-image: linear-gradient(
@@ -389,6 +389,9 @@ ul {
   height: 44px;
   border-radius: 50%;
   background-size: contain;
+}
+.subscribe-soc-list .subscribe-soc-item + .subscribe-soc-item {
+  margin-left: 10px;
 }
 .subscribe-soc-link {
   width: 44px;
