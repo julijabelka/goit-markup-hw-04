@@ -131,6 +131,7 @@ ul {
 .contacts-list {
   display: flex;
   margin-left: auto;
+  align-items: baseline;
 }
 .contacts-list .contacts-item + .contacts-item {
   margin-left: 50px;
@@ -438,9 +439,7 @@ ul {
 .clients-item {
   flex-basis: calc((100% - 5 * 30px) / 6);
 }
-.clients-item:hover,
-.clients-item:focus {
-}
+
 .clients-link {
   display: flex;
   align-items: center;
@@ -568,6 +567,7 @@ ul {
 }
 .main-footer-container {
   display: flex;
+  align-items: baseline;
 }
 .footer-container {
 }
@@ -638,8 +638,6 @@ ul {
 }
 /*-----Joing----*/
 .joing-conteiner {
-  display: block;
-  justify-content: center;
   margin-left: 70px;
 }
 .joing-head {
