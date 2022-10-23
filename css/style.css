@@ -155,7 +155,7 @@ ul {
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--text-color);
-  align-items: baseline;
+  text-align: center;
 }
 .header-mail {
   fill: var(--text-color);
