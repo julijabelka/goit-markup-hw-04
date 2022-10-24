@@ -147,7 +147,7 @@ ul {
   background-color: red;
 }*/
 .header-mail {
-  display: block;
+  display: flex;
   padding-top: 32px;
   padding-bottom: 32px;
   font-weight: 500;
@@ -176,7 +176,7 @@ ul {
   background-color: red;
 }*/
 .header-tel {
-  display: block;
+  display: flex;
   padding-top: 32px;
   padding-bottom: 32px;
   font-weight: 500;
@@ -283,7 +283,7 @@ ul {
   display: block;
 }
 .peculiarities-item::before {
-  display: block;
+  display: flex;
   content: " ";
   height: 120px;
   background-color: var(--background-color-mainteam);
@@ -292,7 +292,9 @@ ul {
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
-  text-align: center;
+  justify-content: center;
+  align-content: stretch;
+  align-items: center;
 }
 .icon-antenna::before {
   content: url("../images1/antenag.svg");
@@ -516,11 +518,13 @@ ul {
 .portfolio-list {
   display: flex;
   flex-wrap: wrap;
-  margin: -10px;
+  margin-top: -30px;
+  margin-left: -30px;
 }
 .portfolio-item {
-  flex-basis: calc((100% - 2 * 30px) / 3);
-  margin: 10px;
+  flex-basis: calc(100% / 3 - 30px);
+  margin-left: 30px;
+  margin-top: 30px;
 }
 .portfolio-link:hover,
 .portfolio-link:focus {
@@ -532,6 +536,10 @@ ul {
 /*.portfolio-list .portfolio-item + .portfolio-item {
   margin-left: 30px;
 }
+.portfolio-list .portfolio-item + .portfolio-item {
+  margin-bottom: 30px;
+}
+
 /*.portfolio-list .portfolio-item:nth-last-child(3n) {
   margin-right: 0px;
 }
@@ -541,8 +549,8 @@ ul {
 }
 .portfolio-item:nth-child(3n) {
   margin-right: 0px;
-}*/
-
+}
+*/
 .portfolio-link {
   display: block;
 }
