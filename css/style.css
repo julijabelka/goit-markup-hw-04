@@ -177,6 +177,9 @@ ul {
   margin-right: 10px;
   background-color: red;
 }*/
+.header-tel-icon {
+  margin-right: 10px;
+}
 .header-tel {
   display: flex;
   padding-top: 32px;
