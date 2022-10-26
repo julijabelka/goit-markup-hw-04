@@ -166,6 +166,7 @@ ul {
   fill: var(--accent-color);
 }
 .header-mail-icon {
+  margin-left: 10px;
 }
 /*.header-tel::before {
   display: inline-block;
@@ -289,7 +290,7 @@ ul {
   content: " ";
   height: 120px;
   background-color: var(--background-color-mainteam);
-  border: 4px;
+  border-radius: 4px;
   margin-bottom: 30px;
   background-size: contain;
   background-repeat: no-repeat;
@@ -418,7 +419,7 @@ ul {
 }
 .subscribe-soc-link:hover,
 .subscribe-soc-link:focus {
-  background-color: var(--button-backgroud-color);
+  background-color: var(--accent-color);
   fill: var(--background-color);
 }
 
@@ -457,6 +458,7 @@ ul {
   height: 92px;
   fill: #afb1b8;
   border: 1px solid #afb1b8;
+  border-radius: 4px;
 }
 .clients-icon {
 }
@@ -530,7 +532,6 @@ ul {
 }
 .portfolio-link:hover,
 .portfolio-link:focus {
-  border: 1px solid #eeeeee;
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
 }
