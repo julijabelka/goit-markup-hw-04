@@ -166,7 +166,8 @@ ul {
   fill: var(--accent-color);
 }
 .header-mail-icon {
-  margin-left: 10px;
+  display: flex;
+  margin-right: 10px;
 }
 /*.header-tel::before {
   display: inline-block;
