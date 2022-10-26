@@ -179,6 +179,7 @@ ul {
 }*/
 .header-tel-icon {
   margin-right: 10px;
+  display: flex;
 }
 .header-tel {
   display: flex;
